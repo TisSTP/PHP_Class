@@ -20,12 +20,12 @@ class MyClassTest extends MyAbstract2{
      * class    with abstract  use extends
      *
      */
-    function myAbstractMethod1() {
+    public function myAbstractMethod1() {
         // TODO: Implement myAbstractMethod1() method.
     }
 
 
-    function myAbstractMethod2() {
+    public function myAbstractMethod2() {
         // TODO: Implement myAbstractMethod2() method.
     }
 }

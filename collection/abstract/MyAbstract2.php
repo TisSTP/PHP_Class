@@ -22,7 +22,7 @@ abstract class MyAbstract2 extends MyAbstract{
      * class    with abstract  use extends
      *
      */
-    abstract function myAbstractMethod2();
+    public abstract function myAbstractMethod2();
 
 
     // Property

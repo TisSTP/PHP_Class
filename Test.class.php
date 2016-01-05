@@ -6,7 +6,7 @@ class Test {
      * Property Declaration
      */
     const MYCONST = 'const';  // ค่าคงที่
-    static $myStatic = 'static';
+    private static $myStatic = 'static';
     private $myPrivate = 'private';
     protected $myProtected = 'protected';
     public $myPublic = 'public';
@@ -17,11 +17,12 @@ class Test {
      */
 
     // Constructor
-    function __construct() {
+    public function __construct() {
         # self => this
         self::MYCONST;
         self::$myStatic;
         self::getMyPrivate();
+//        self::$myStatic = '454';
     }
 
 

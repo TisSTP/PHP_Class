@@ -23,8 +23,8 @@ abstract class MyAbstract3 implements MyInterface2 {
      *
      */
 
-    abstract function myAbstractMethod3();
+    public abstract function myAbstractMethod3();
 
-    abstract function myAbstractMethod4();
+    public abstract function myAbstractMethod4();
 
 }

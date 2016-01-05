@@ -7,7 +7,7 @@
  * Time: 23:20
  */
 
-namespace myabstract;
+namespace collection\myabstract;
 
 
 abstract class MyAbstract{
@@ -22,7 +22,7 @@ abstract class MyAbstract{
      * class    with abstract  use extends
      *
      */
-    abstract function myAbstractMethod1();
+    public abstract function myAbstractMethod1();
 
 
     // Property

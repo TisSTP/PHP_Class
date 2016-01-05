@@ -9,9 +9,6 @@
 namespace mytrait;
 
 
-use myabstract\MyAbstract;
-use myinterface\MyInterface;
-
 trait MyTrait2 {
     use MyTrait;
 }
